@@ -3,10 +3,10 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Thu Dec 11 15:41:54 2025
-# Process ID         : 17852
+# Start of session at: Thu Dec 11 15:46:32 2025
+# Process ID         : 14328
 # Current directory  : C:/Users/trisa/Desktop/VHDL/VHDL/project_1
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent8176 C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent1580 C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.xpr
 # Log file           : C:/Users/trisa/Desktop/VHDL/VHDL/project_1/vivado.log
 # Journal file       : C:/Users/trisa/Desktop/VHDL/VHDL/project_1\vivado.jou
 # Running On         : Mario
@@ -19,7 +19,7 @@
 # Host memory        : 16865 MB
 # Swap memory        : 1409 MB
 # Total Virtual      : 18274 MB
-# Available Virtual  : 8211 MB
+# Available Virtual  : 6539 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.xpr
@@ -108,7 +108,6 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-INFO: [Project 1-313] Project file moved from 'C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1' since last save.
 INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.gen/sources_1'.
 WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.ip_user_files'.
 Scanning sources...
@@ -133,9 +132,338 @@ WARNING: [Project 1-5713] Board part '' set for the project  is not found. Board
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
-open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 1643.469 ; gain = 276.980
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 1623.949 ; gain = 177.727
 update_compile_order -fileset sources_1
-import_files -norecurse C:/Users/trisa/Desktop/VHDL/project_1/project_1.srcs/sources_1/new/FSM.vhd
-update_compile_order -fileset sources_1
+file mkdir C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+update_compile_order -fileset sim_1
+set_property top Controlador_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sim_1\new\Controlador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sim_1\new\Controlador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Controlador_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Controlador_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Controlador_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/FSM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Controlador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Controlador_tb'
+ERROR: [VRFC 10-488] character with value 0x93 is not a graphic literal character [C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd:69]
+ERROR: [VRFC 10-488] character with value 0x93 is not a graphic literal character [C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd:132]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd:9]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Controlador_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Controlador_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Controlador_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/FSM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Controlador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Controlador_tb'
+ERROR: [VRFC 10-488] character with value 0x93 is not a graphic literal character [C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd:69]
+ERROR: [VRFC 10-488] character with value 0x93 is not a graphic literal character [C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd:132]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd:9]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Controlador_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Controlador_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Controlador_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/FSM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Controlador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Controlador_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Controlador_tb_behav xil_defaultlib.Controlador_tb -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Controlador_tb_behav xil_defaultlib.Controlador_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Controlador [controlador_default]
+Compiling architecture behavioral of entity xil_defaultlib.controlador_tb
+Built simulation snapshot Controlador_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Controlador_tb_behav -key {Behavioral:sim_1:Functional:Controlador_tb} -tclbatch {Controlador_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Controlador_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Note: === INICIO SIMULACION ===
+Time: 0 ps  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note: TEST 1: Llamada al Piso 2
+Time: 100 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note: TEST 2: Intento de sabotaje
+Time: 280 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note: Simulando fin de tiempo de frenado...
+Time: 460 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note: === FIN SIMULACION EXITOSA ===
+Time: 490 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Controlador_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1682.953 ; gain = 12.383
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Controlador_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Controlador_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Controlador_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Controlador_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Controlador_tb_behav xil_defaultlib.Controlador_tb -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Controlador_tb_behav xil_defaultlib.Controlador_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Controlador [controlador_default]
+Compiling architecture behavioral of entity xil_defaultlib.controlador_tb
+Built simulation snapshot Controlador_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Controlador_tb_behav -key {Behavioral:sim_1:Functional:Controlador_tb} -tclbatch {Controlador_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Controlador_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Note: === INICIO SECUENCIA COMPLETA ===
+Time: 0 ps  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note: >>> PASO 1: Llamada al Piso 3
+Time: 150 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Viajando: 0 -> 1
+Time: 240 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Viajando: 1 -> 2
+Time: 300 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Viajando: 2 -> 3
+Time: 360 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Frenando y Abriendo Puerta
+Time: 440 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note: >>> PASO 2: Llamada al Piso 1
+Time: 550 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Viajando: 3 -> 2
+Time: 640 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Viajando: 2 -> 1
+Time: 700 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Frenando y Abriendo Puerta
+Time: 780 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note: === EXITO: SECUENCIA 0 -> 3 -> 1 COMPLETADA ===
+Time: 840 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Controlador_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sim_1\new\Controlador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+ERROR: [Common 17-180] Spawn failed: La operación se completó correctamente.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sim_1\new\Controlador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Controlador_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Controlador_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Controlador_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/FSM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Controlador'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Controlador_tb_behav xil_defaultlib.Controlador_tb -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Controlador_tb_behav xil_defaultlib.Controlador_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Controlador [controlador_default]
+Compiling architecture behavioral of entity xil_defaultlib.controlador_tb
+Built simulation snapshot Controlador_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Controlador_tb_behav -key {Behavioral:sim_1:Functional:Controlador_tb} -tclbatch {Controlador_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Controlador_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Note: === INICIO SECUENCIA COMPLETA ===
+Time: 0 ps  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note: >>> PASO 1: Llamada al Piso 3
+Time: 150 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Viajando: 0 -> 1
+Time: 240 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Viajando: 1 -> 2
+Time: 300 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Viajando: 2 -> 3
+Time: 360 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Frenando y Abriendo Puerta
+Time: 440 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note: >>> PASO 2: Llamada al Piso 1
+Time: 550 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Viajando: 3 -> 2
+Time: 640 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Viajando: 2 -> 1
+Time: 700 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note:    ... Frenando y Abriendo Puerta
+Time: 780 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+Note: === EXITO: SECUENCIA 0 -> 3 -> 1 COMPLETADA ===
+Time: 840 ns  Iteration: 0  Process: /Controlador_tb/p_stim  File: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Controlador_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sim_1\new\Controlador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+ERROR: [Common 17-180] Spawn failed: La operación se completó correctamente.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sim_1\new\Controlador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+export_ip_user_files -of_objects  [get_files C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sim_1/new/Controlador_tb.vhd
+set_property top Controlador [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sim_1\new\Controlador_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+ERROR: [Common 17-180] Spawn failed: La operación se completó correctamente.
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Dec 11 15:44:14 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 11 17:18:46 2025...
