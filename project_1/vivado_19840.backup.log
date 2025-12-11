@@ -3,10 +3,10 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Thu Dec 11 12:50:31 2025
-# Process ID         : 24220
+# Start of session at: Thu Dec 11 19:31:54 2025
+# Process ID         : 19840
 # Current directory  : C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent7548 C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent19160 C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.xpr
 # Log file           : C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/vivado.log
 # Journal file       : C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1\vivado.jou
 # Running On         : Asus_JaviValdes
@@ -19,7 +19,7 @@
 # Host memory        : 16850 MB
 # Swap memory        : 10200 MB
 # Total Virtual      : 27050 MB
-# Available Virtual  : 11664 MB
+# Available Virtual  : 7809 MB
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.xpr}
@@ -108,9 +108,9 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/VIVADO/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/VIVADO/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/VIVADO/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-INFO: [Project 1-313] Project file moved from 'C:/Users/trisa/Desktop/VHDL/project_1' since last save.
-WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/AppData/Roaming/Xilinx/Vivado/2025.1/xhub/board_store/xilinx_board_store', nor could it be found using path 'C:/Users/trisa/AppData/Roaming/Xilinx/Vivado/2025.1/xhub/board_store/xilinx_board_store'.
+INFO: [Project 1-313] Project file moved from 'C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1' since last save.
 INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.gen/sources_1'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/../practicas_examen/practica2_examen/practica2_examen.srcs/sources_1/new/decoder.vhd', nor could it be found using path 'C:/practicas_examen/practica2_examen/practica2_examen.srcs/sources_1/new/decoder.vhd'.
 Scanning sources...
 Finished scanning sources
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/VIVADO/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
@@ -133,74 +133,32 @@ WARNING: [Project 1-5713] Board part '' set for the project  is not found. Board
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/VIVADO/2025.1/Vivado/data/ip'.
-open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:12 . Memory (MB): peak = 1621.719 ; gain = 210.164
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:10 . Memory (MB): peak = 1611.809 ; gain = 186.359
 update_compile_order -fileset sources_1
-synth_design -rtl -rtl_skip_mlo -name rtl_1
-Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
-Starting synth_design
-Using part: xc7vx485tffg1157-1
-Top: Entradas
-INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
-INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
-INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 28036
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2597.605 ; gain = 498.418
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Entradas' [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:13]
-INFO: [Synth 8-3491] module 'SYNCHRNZR' declared at 'C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/SYNCHRNZR.vhd:3' bound to instance 'Inst_Sincronizador' of component 'SYNCHRNZR' [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:41]
-INFO: [Synth 8-638] synthesizing module 'SYNCHRNZR' [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/SYNCHRNZR.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'SYNCHRNZR' (0#1) [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/SYNCHRNZR.vhd:12]
-INFO: [Synth 8-3491] module 'EDGEDTCTR' declared at 'C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/EDGEDTCTR.vhd:4' bound to instance 'Inst_Detector' of component 'EDGEDTCTR' [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:49]
-INFO: [Synth 8-638] synthesizing module 'EDGEDTCTR' [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/EDGEDTCTR.vhd:13]
-INFO: [Synth 8-256] done synthesizing module 'EDGEDTCTR' (0#1) [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/EDGEDTCTR.vhd:13]
-INFO: [Synth 8-3491] module 'SYNCHRNZR' declared at 'C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/SYNCHRNZR.vhd:3' bound to instance 'Inst_Sincronizador' of component 'SYNCHRNZR' [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:41]
-INFO: [Synth 8-3491] module 'EDGEDTCTR' declared at 'C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/EDGEDTCTR.vhd:4' bound to instance 'Inst_Detector' of component 'EDGEDTCTR' [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:49]
-INFO: [Synth 8-3491] module 'SYNCHRNZR' declared at 'C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/SYNCHRNZR.vhd:3' bound to instance 'Inst_Sincronizador' of component 'SYNCHRNZR' [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:41]
-INFO: [Synth 8-3491] module 'EDGEDTCTR' declared at 'C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/EDGEDTCTR.vhd:4' bound to instance 'Inst_Detector' of component 'EDGEDTCTR' [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:49]
-INFO: [Synth 8-3491] module 'SYNCHRNZR' declared at 'C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/SYNCHRNZR.vhd:3' bound to instance 'Inst_Sincronizador' of component 'SYNCHRNZR' [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:41]
-INFO: [Synth 8-3491] module 'EDGEDTCTR' declared at 'C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/EDGEDTCTR.vhd:4' bound to instance 'Inst_Detector' of component 'EDGEDTCTR' [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:49]
-INFO: [Synth 8-256] done synthesizing module 'Entradas' (0#1) [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:13]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2694.387 ; gain = 595.199
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Handling Custom Attributes
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2694.387 ; gain = 595.199
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2694.387 ; gain = 595.199
----------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2694.387 ; gain = 0.000
-INFO: [Project 1-570] Preparing netlist for logic optimization
-
-Processing XDC Constraints
-Initializing timing engine
-Parsing XDC File [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc]
-Finished Parsing XDC File [C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc]
-Completed Processing XDC Constraints
-
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2768.379 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-RTL Elaboration Complete:  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:22 . Memory (MB): peak = 3124.430 ; gain = 1025.242
-20 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:32 . Memory (MB): peak = 3124.430 ; gain = 1501.867
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\SYNCHRNZR.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\EDGEDTCTR.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
+import_files -norecurse {{C:/Users/jvald/Desktop/CURSO 25 - 26/SED/LABS/practica2/codigoP2_SED/decoder/decoder.srcs/sources_1/new/decoder.vhd}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Visualizador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Control_Leds.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
 ERROR: [Common 17-180] Spawn failed: La operación se completó correctamente.
 
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Entradas.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\SYNCHRNZR.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\EDGEDTCTR.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\EDGEDTCTR.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\EDGEDTCTR.vhd:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Visualizador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Control_Leds.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Control_Leds.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Control_Leds.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Visualizador.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Control_Leds.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\jvald\Desktop\CURSO 25 - 26\SED\Trabajo\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+ERROR: [Common 17-180] Spawn failed: La operación se completó correctamente.
+
+ERROR: [Vivado 12-106] *** Exception: java.lang.IllegalArgumentException: Comparison method violates its general contract! (See C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/vivado_pid19840.debug)
+ERROR: [Vivado 12-106] *** Exception: java.lang.IllegalArgumentException: Comparison method violates its general contract! (See C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/vivado_pid19840.debug)
+ERROR: [Vivado 12-106] *** Exception: java.lang.IllegalArgumentException: Comparison method violates its general contract! (See C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/vivado_pid19840.debug)
+ERROR: [Vivado 12-106] *** Exception: java.lang.IllegalArgumentException: Comparison method violates its general contract! (See C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/vivado_pid19840.debug)
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Dec 11 12:58:07 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 11 19:36:36 2025...
