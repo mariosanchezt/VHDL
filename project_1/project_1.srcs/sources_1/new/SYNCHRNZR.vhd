@@ -1,4 +1,4 @@
-library IEEE;
+library IEEE;   -- Comentario para comprobar gitHub
 use IEEE.STD_LOGIC_1164.ALL;
 entity SYNCHRNZR is
     port (
