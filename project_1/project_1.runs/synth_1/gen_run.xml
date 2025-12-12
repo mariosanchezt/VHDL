@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1765558941">
+<GenRun Id="synth_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1765561292">
   <File Type="PA-TCL" Name="Top_LIFT.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Top_LIFT_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Top_LIFT_reports.tcl"/>
   <File Type="RDS-RDS" Name="Top_LIFT.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="Top_LIFT_drc_synth.rpt"/>
   <File Type="RDS-UTIL" Name="Top_LIFT_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Top_LIFT_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Top_LIFT.dcp"/>
@@ -92,6 +92,14 @@
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../Nexys4DDR_Master.xdc"/>
         <Attr Name="ImportTime" Val="1765386750"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/Ficheros/lab_remoto.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Ficheros/lab_remoto.xdc"/>
+        <Attr Name="ImportTime" Val="1765559112"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
