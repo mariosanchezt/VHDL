@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Dec 12 19:26:34 2025
+# Process ID         : 6072
+# Current directory  : C:/Trabajo VHDL/VHDL/project_1/project_1.runs/impl_1
+# Command line       : vivado.exe -log Top_LIFT.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Top_LIFT.tcl -notrace
+# Log file           : C:/Trabajo VHDL/VHDL/project_1/project_1.runs/impl_1/Top_LIFT.vdi
+# Journal file       : C:/Trabajo VHDL/VHDL/project_1/project_1.runs/impl_1\vivado.jou
+# Running On         : Javi_SM
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8269 MB
+# Swap memory        : 15032 MB
+# Total Virtual      : 23302 MB
+# Available Virtual  : 7321 MB
+#-----------------------------------------------------------
+source Top_LIFT.tcl -notrace

@@ -3,12 +3,12 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Fri Dec 12 18:33:34 2025
-# Process ID         : 20456
-# Current directory  : C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent3420 C:\Users\javie\OneDrive\Escritorio\UNI 25-26\1ER CUATRI\SED\Trabajo VHDL\VHDL\project_1\project_1.xpr
-# Log file           : C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1/vivado.log
-# Journal file       : C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1\vivado.jou
+# Start of session at: Fri Dec 12 18:56:09 2025
+# Process ID         : 17356
+# Current directory  : C:/Trabajo VHDL/VHDL/project_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent23732 C:\Trabajo VHDL\VHDL\project_1\project_1.xpr
+# Log file           : C:/Trabajo VHDL/VHDL/project_1/vivado.log
+# Journal file       : C:/Trabajo VHDL/VHDL/project_1\vivado.jou
 # Running On         : Javi_SM
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26200
@@ -19,11 +19,26 @@
 # Host memory        : 8269 MB
 # Swap memory        : 15032 MB
 # Total Virtual      : 23302 MB
-# Available Virtual  : 8370 MB
+# Available Virtual  : 7223 MB
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1/project_1.xpr}
+open_project {C:/Trabajo VHDL/VHDL/project_1/project_1.xpr}
 update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property part xc7a100tcsg324-1 [current_project]
 reset_run synth_1
 launch_runs impl_1 -to_step write_bitstream -jobs 8
 wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files {{C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
