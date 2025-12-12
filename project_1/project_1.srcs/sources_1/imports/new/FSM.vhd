@@ -25,7 +25,7 @@ end Controlador;
 architecture Behavioral of Controlador is
 
     
-    type estados_t is (IDLE, CERRANDO, SUBIENDO, BAJANDO, LLEGADA_FRENO, ABRIENDO);
+    type estados_t is (IDLE, CERRANDO, SUBIENDO, BAJANDO, LLEGADA_FRENO); --ABRIENDO (duda)
     signal estado_actual, estado_siguiente : estados_t;
 
     -- Registros internos
@@ -53,7 +53,7 @@ begin
                 if botones_piso(0) = '1' then r_piso_target <= 0; end if;
                 if botones_piso(1) = '1' then r_piso_target <= 1; end if;
                 if botones_piso(2) = '1' then r_piso_target <= 2; end if;
-                if botones_piso(3) = '1' then r_piso_target <= 3; end if;
+                if botones_piso(3) = '1' then r_piso_target <= 3; end if; --En caso de que se pulsen todos a la vez, tendra prioridad la ultima señal asignada (teoria)
             end if;
 
            
@@ -122,15 +122,15 @@ begin
                 puerta_abierta <= '0';  
                 
               
-                if fin_timer = '1' then
-                    estado_siguiente <= ABRIENDO;
+                if fin_timer = '1' then  --Caution porque si justo es 1 en el instante que entra aqui, saltaria la etapa, habra que tocar posiblemente algo del edge detector
+                    estado_siguiente <= IDLE;
                 end if;
 
             
-            when ABRIENDO =>
-                motor <= "00";
-                puerta_abierta <= '1';  
-                estado_siguiente <= IDLE;
+           -- when ABRIENDO => --Vamos a probar asi pero creo que nos podriamos saltar este paso ya que es fugaz
+           --     motor <= "00";
+            --    puerta_abierta <= '1';  
+             --   estado_siguiente <= IDLE;
 
         end case;
     end process;
