@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Fri Dec 12 19:24:37 2025
-# Process ID         : 14552
+# Start of session at: Mon Dec 15 17:39:57 2025
+# Process ID         : 5616
 # Current directory  : C:/Trabajo VHDL/VHDL/project_1/project_1.runs/synth_1
 # Command line       : vivado.exe -log Top_LIFT.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_LIFT.tcl
 # Log file           : C:/Trabajo VHDL/VHDL/project_1/project_1.runs/synth_1/Top_LIFT.vds
@@ -19,10 +19,10 @@
 # Host memory        : 8269 MB
 # Swap memory        : 15032 MB
 # Total Virtual      : 23302 MB
-# Available Virtual  : 7708 MB
+# Available Virtual  : 7979 MB
 #-----------------------------------------------------------
 source Top_LIFT.tcl -notrace
-create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 492.863 ; gain = 211.207
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 493.078 ; gain = 213.551
 Command: read_checkpoint -auto_incremental -incremental {C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/utils_1/imports/synth_1/Top_LIFT.dcp}
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/utils_1/imports/synth_1/Top_LIFT.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -35,12 +35,12 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 12240
+INFO: [Synth 8-7075] Helper process launched with PID 2172
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1195.246 ; gain = 496.816
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1193.500 ; gain = 493.801
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Top_LIFT' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd:17]
-INFO: [Synth 8-3491] module 'Entradas' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:4' bound to instance 'inst_Entradas' of component 'Entradas' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd:70]
+INFO: [Synth 8-3491] module 'Entradas' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:4' bound to instance 'inst_Entradas' of component 'Entradas' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd:84]
 INFO: [Synth 8-638] synthesizing module 'Entradas' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:13]
 INFO: [Synth 8-3491] module 'SYNCHRNZR' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/SYNCHRNZR.vhd:3' bound to instance 'Inst_Sincronizador' of component 'SYNCHRNZR' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:41]
 INFO: [Synth 8-638] synthesizing module 'SYNCHRNZR' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/SYNCHRNZR.vhd:12]
@@ -55,16 +55,16 @@ INFO: [Synth 8-3491] module 'EDGEDTCTR' declared at 'C:/Trabajo VHDL/VHDL/projec
 INFO: [Synth 8-3491] module 'SYNCHRNZR' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/SYNCHRNZR.vhd:3' bound to instance 'Inst_Sincronizador' of component 'SYNCHRNZR' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:41]
 INFO: [Synth 8-3491] module 'EDGEDTCTR' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/EDGEDTCTR.vhd:4' bound to instance 'Inst_Detector' of component 'EDGEDTCTR' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:49]
 INFO: [Synth 8-256] done synthesizing module 'Entradas' (0#1) [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd:13]
-INFO: [Synth 8-3491] module 'Timer_Lift' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/Timer_Lift.vhd:5' bound to instance 'inst_Timer_Lift' of component 'Timer_Lift' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd:75]
+INFO: [Synth 8-3491] module 'Timer_Lift' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/Timer_Lift.vhd:5' bound to instance 'inst_Timer_Lift' of component 'Timer_Lift' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd:92]
 INFO: [Synth 8-638] synthesizing module 'Timer_Lift' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/Timer_Lift.vhd:13]
 INFO: [Synth 8-256] done synthesizing module 'Timer_Lift' (0#1) [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/Timer_Lift.vhd:13]
-INFO: [Synth 8-3491] module 'Timer_Puerta' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/Timer_Puerta.vhd:5' bound to instance 'inst_Timer_Puerta' of component 'Timer_Puerta' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd:78]
+INFO: [Synth 8-3491] module 'Timer_Puerta' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/Timer_Puerta.vhd:5' bound to instance 'inst_Timer_Puerta' of component 'Timer_Puerta' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd:98]
 INFO: [Synth 8-638] synthesizing module 'Timer_Puerta' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/Timer_Puerta.vhd:13]
 INFO: [Synth 8-256] done synthesizing module 'Timer_Puerta' (0#1) [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/Timer_Puerta.vhd:13]
-INFO: [Synth 8-3491] module 'Controlador' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/FSM.vhd:5' bound to instance 'inst_Controlador' of component 'Controlador' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd:82]
+INFO: [Synth 8-3491] module 'Controlador' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/FSM.vhd:5' bound to instance 'inst_Controlador' of component 'Controlador' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd:105]
 INFO: [Synth 8-638] synthesizing module 'Controlador' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/FSM.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'Controlador' (0#1) [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/FSM.vhd:25]
-INFO: [Synth 8-3491] module 'Visualizador' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Visualizador.vhd:4' bound to instance 'inst_Visualizador' of component 'Visualizador' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd:91]
+INFO: [Synth 8-3491] module 'Visualizador' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Visualizador.vhd:4' bound to instance 'inst_Visualizador' of component 'Visualizador' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd:119]
 INFO: [Synth 8-638] synthesizing module 'Visualizador' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Visualizador.vhd:21]
 INFO: [Synth 8-3491] module 'decoder' declared at 'C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/decoder.vhd:26' bound to instance 'Inst_Decoder' of component 'decoder' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Visualizador.vhd:44]
 INFO: [Synth 8-638] synthesizing module 'decoder' [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/decoder.vhd:33]
@@ -85,101 +85,50 @@ WARNING: [Synth 8-3917] design Top_LIFT has port LED[8] driven by constant 0
 WARNING: [Synth 8-3917] design Top_LIFT has port LED[5] driven by constant 0
 WARNING: [Synth 8-3917] design Top_LIFT has port LED[4] driven by constant 0
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1301.016 ; gain = 602.586
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1301.168 ; gain = 601.469
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1301.016 ; gain = 602.586
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1301.168 ; gain = 601.469
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1301.016 ; gain = 602.586
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1301.168 ; gain = 601.469
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1301.016 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1301.168 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc]
-WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:99]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:99]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:100]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:100]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:101]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:101]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:102]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:102]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:103]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:103]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:104]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:104]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:105]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:105]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:106]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:106]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[12]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:110]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:110]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[13]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:111]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:111]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[14]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:112]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:112]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[15]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:113]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:113]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:114]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:114]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:115]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:115]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:116]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:116]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:117]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:117]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'BTNC'. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:130]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc:130]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_LIFT_propImpl.xdc].
+Parsing XDC File [C:/practicas_examen/Constraints/Nexys-4-DDR-Master.xdc]
+Finished Parsing XDC File [C:/practicas_examen/Constraints/Nexys-4-DDR-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/practicas_examen/Constraints/Nexys-4-DDR-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_LIFT_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Top_LIFT_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1356.234 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1373.062 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1356.234 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1373.062 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 1356.234 ; gain = 657.805
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1373.062 ; gain = 673.363
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 1356.234 ; gain = 657.805
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1373.062 ; gain = 673.363
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1356.234 ; gain = 657.805
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1373.062 ; gain = 673.363
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'estado_actual_reg' in module 'Controlador'
 ---------------------------------------------------------------------------------------------------
@@ -193,7 +142,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'estado_actual_reg' in modul
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'estado_actual_reg' using encoding 'sequential' in module 'Controlador'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 1356.234 ; gain = 657.805
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1373.062 ; gain = 673.363
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -242,25 +191,25 @@ WARNING: [Synth 8-3917] design Top_LIFT has port LED[8] driven by constant 0
 WARNING: [Synth 8-3917] design Top_LIFT has port LED[5] driven by constant 0
 WARNING: [Synth 8-3917] design Top_LIFT has port LED[4] driven by constant 0
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 1373.836 ; gain = 675.406
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1373.062 ; gain = 673.363
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:49 . Memory (MB): peak = 1510.902 ; gain = 812.473
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1505.836 ; gain = 806.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:49 . Memory (MB): peak = 1533.004 ; gain = 834.574
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1528.520 ; gain = 828.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:50 . Memory (MB): peak = 1533.004 ; gain = 834.574
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1528.520 ; gain = 828.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -278,37 +227,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1755.824 ; gain = 1057.395
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1751.332 ; gain = 1051.633
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1755.824 ; gain = 1057.395
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1751.332 ; gain = 1051.633
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1755.824 ; gain = 1057.395
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1751.332 ; gain = 1051.633
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1755.824 ; gain = 1057.395
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1751.332 ; gain = 1051.633
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1755.824 ; gain = 1057.395
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1751.332 ; gain = 1051.633
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1755.824 ; gain = 1057.395
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1751.332 ; gain = 1051.633
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -353,28 +302,27 @@ Report Cell Usage:
 |13    |OBUF   |    31|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1755.824 ; gain = 1057.395
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1751.332 ; gain = 1051.633
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:56 . Memory (MB): peak = 1755.824 ; gain = 1002.176
-Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 1755.824 ; gain = 1057.395
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 1751.332 ; gain = 979.738
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1751.332 ; gain = 1051.633
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1761.270 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1751.332 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1764.949 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1751.332 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 Synth Design complete | Checksum: 8421fb73
 INFO: [Common 17-83] Releasing license: Synthesis
-59 Infos, 36 Warnings, 17 Critical Warnings and 0 Errors encountered.
+59 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:01:23 . Memory (MB): peak = 1764.949 ; gain = 1266.652
-INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1764.949 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:55 . Memory (MB): peak = 1751.332 ; gain = 1252.332
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1751.332 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Trabajo VHDL/VHDL/project_1/project_1.runs/synth_1/Top_LIFT.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file Top_LIFT_utilization_synth.rpt -pb Top_LIFT_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Dec 12 19:26:26 2025...
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 15 17:41:03 2025...

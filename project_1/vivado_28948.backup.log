@@ -3,26 +3,26 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Fri Dec 12 17:03:06 2025
-# Process ID         : 22308
-# Current directory  : C:/Users/trisa/Desktop/VHDL/VHDL/project_1
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent26152 C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.xpr
-# Log file           : C:/Users/trisa/Desktop/VHDL/VHDL/project_1/vivado.log
-# Journal file       : C:/Users/trisa/Desktop/VHDL/VHDL/project_1\vivado.jou
-# Running On         : Mario
+# Start of session at: Mon Dec 15 16:03:18 2025
+# Process ID         : 28948
+# Current directory  : C:/Trabajo VHDL/VHDL/project_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent11488 C:\Trabajo VHDL\VHDL\project_1\project_1.xpr
+# Log file           : C:/Trabajo VHDL/VHDL/project_1/vivado.log
+# Journal file       : C:/Trabajo VHDL/VHDL/project_1\vivado.jou
+# Running On         : Javi_SM
 # Platform           : Windows Server 2016 or Windows 10
-# Operating System   : 26100
-# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12650H
-# CPU Frequency      : 2688 MHz
-# CPU Physical cores : 10
-# CPU Logical cores  : 16
-# Host memory        : 16865 MB
-# Swap memory        : 1409 MB
-# Total Virtual      : 18274 MB
-# Available Virtual  : 4382 MB
+# Operating System   : 26200
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8269 MB
+# Swap memory        : 15032 MB
+# Total Virtual      : 23302 MB
+# Available Virtual  : 9834 MB
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.xpr
+open_project {C:/Trabajo VHDL/VHDL/project_1/project_1.xpr}
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k24c\1.0\board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
@@ -91,7 +91,6 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc702\1.4\board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc706\1.4\board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
-INFO: [Project 1-313] Project file moved from 'C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1' since last save.
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu102\3.3\board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu102\3.4\board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu104\1.1\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
@@ -109,7 +108,7 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.gen/sources_1'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Trabajo VHDL/VHDL/project_1/project_1.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
@@ -132,49 +131,109 @@ WARNING: [Project 1-5713] Board part '' set for the project  is not found. Board
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
-open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1617.594 ; gain = 182.957
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:14 . Memory (MB): peak = 1626.793 ; gain = 250.961
 update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\Timer_Puerta.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\Timer_Lift.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Visualizador.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Visualizador.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Visualizador.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\Timer_Puerta.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\Timer_Lift.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Visualizador.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
-launch_runs impl_1 -to_step write_bitstream -jobs 16
-[Fri Dec 12 18:02:22 2025] Launched synth_1...
-Run output will be captured here: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.runs/synth_1/runme.log
-[Fri Dec 12 18:02:22 2025] Launched impl_1...
-Run output will be captured here: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.runs/impl_1/runme.log
-add_files -fileset constrs_1 -norecurse C:/Users/trisa/Desktop/Ficheros/lab_remoto.xdc
-import_files -fileset constrs_1 C:/Users/trisa/Desktop/Ficheros/lab_remoto.xdc
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\Timer_Puerta.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\Timer_Lift.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Visualizador.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\Timer_Puerta.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\Timer_Lift.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Visualizador.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Visualizador.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\trisa\Desktop\VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Visualizador.vhd:]
+export_ip_user_files -of_objects  [get_files {{C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+add_files -fileset constrs_1 -norecurse {{C:/practicas_examen/Constraints/Nexys-4-DDR-Master (1).xdc}}
+ERROR: [Vivado 12-385] Illegal file or directory name 'C:/practicas_examen/Constraints/Nexys-4-DDR-Master (1).xdc'
+add_files -fileset constrs_1 -norecurse C:/practicas_examen/Constraints/Nexys-4-DDR-Master.xdc
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/utils_1/imports/synth_1/Top_LIFT.dcp with file C:/Trabajo VHDL/VHDL/project_1/project_1.runs/synth_1/Top_LIFT.dcp
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
 ERROR: [Common 17-180] Spawn failed: La operación se completó correctamente.
 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Dec 15 17:39:55 2025] Launched synth_1...
+Run output will be captured here: C:/Trabajo VHDL/VHDL/project_1/project_1.runs/synth_1/runme.log
+[Mon Dec 15 17:39:55 2025] Launched impl_1...
+Run output will be captured here: C:/Trabajo VHDL/VHDL/project_1/project_1.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1838.711 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1929.191 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2535.816 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2535.816 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2535.816 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2535.816 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2535.816 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 2535.816 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 2535.816 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2535.816 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 2889.578 ; gain = 1238.395
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2025.1
+  **** Build date : May  6 2025 at 09:15:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2025.1.0
+  ****** Build date   : May 13 2025-21:15:27
+    **** Build number : 2025.1.1747163727
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 2930.957 ; gain = 6.379
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A4018CA
+set_property PROGRAM.FILE {C:/Trabajo VHDL/VHDL/project_1/project_1.runs/impl_1/Top_LIFT.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Trabajo VHDL/VHDL/project_1/project_1.runs/impl_1/Top_LIFT.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\imports\new\FSM.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Trabajo VHDL\VHDL\project_1\project_1.srcs\sources_1\new\Top_LIFT.vhd:]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292A4018CA
 exit
-INFO: [Common 17-206] Exiting Vivado at Fri Dec 12 18:26:32 2025...
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 15 19:16:24 2025...

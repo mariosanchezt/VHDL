@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Fri Dec 12 19:24:37 2025
-# Process ID         : 14552
+# Start of session at: Mon Dec 15 17:39:57 2025
+# Process ID         : 5616
 # Current directory  : C:/Trabajo VHDL/VHDL/project_1/project_1.runs/synth_1
 # Command line       : vivado.exe -log Top_LIFT.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_LIFT.tcl
 # Log file           : C:/Trabajo VHDL/VHDL/project_1/project_1.runs/synth_1/Top_LIFT.vds
@@ -19,6 +19,6 @@
 # Host memory        : 8269 MB
 # Swap memory        : 15032 MB
 # Total Virtual      : 23302 MB
-# Available Virtual  : 7708 MB
+# Available Virtual  : 7979 MB
 #-----------------------------------------------------------
 source Top_LIFT.tcl -notrace

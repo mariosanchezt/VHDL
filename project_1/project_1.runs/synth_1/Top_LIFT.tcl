@@ -56,7 +56,6 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
 set_param general.usePosixSpawnForFork 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
@@ -93,8 +92,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc}}
-set_property used_in_implementation false [get_files {{C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc}}]
+read_xdc C:/practicas_examen/Constraints/Nexys-4-DDR-Master.xdc
+set_property used_in_implementation false [get_files C:/practicas_examen/Constraints/Nexys-4-DDR-Master.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 

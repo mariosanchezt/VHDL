@@ -121,7 +121,7 @@ OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
   add_files -quiet {{C:/Trabajo VHDL/VHDL/project_1/project_1.runs/synth_1/Top_LIFT.dcp}}
 OPTRACE "read constraints: implementation" START { }
-  read_xdc {{C:/Trabajo VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/Ficheros/lab_remoto.xdc}}
+  read_xdc C:/practicas_examen/Constraints/Nexys-4-DDR-Master.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }

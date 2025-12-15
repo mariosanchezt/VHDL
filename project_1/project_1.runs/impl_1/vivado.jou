@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Fri Dec 12 19:26:34 2025
-# Process ID         : 6072
+# Start of session at: Mon Dec 15 17:41:11 2025
+# Process ID         : 14952
 # Current directory  : C:/Trabajo VHDL/VHDL/project_1/project_1.runs/impl_1
 # Command line       : vivado.exe -log Top_LIFT.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Top_LIFT.tcl -notrace
 # Log file           : C:/Trabajo VHDL/VHDL/project_1/project_1.runs/impl_1/Top_LIFT.vdi
@@ -19,6 +19,6 @@
 # Host memory        : 8269 MB
 # Swap memory        : 15032 MB
 # Total Virtual      : 23302 MB
-# Available Virtual  : 7321 MB
+# Available Virtual  : 8058 MB
 #-----------------------------------------------------------
 source Top_LIFT.tcl -notrace
