@@ -4,7 +4,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity EDGEDTCTR is
     port (
         CLK     : in std_logic;
-        rst_n     : in std_logic; -- NUEVO PUERTO
+        rst_n     : in std_logic; 
         SYNC_IN : in std_logic;
         EDGE    : out std_logic
     );

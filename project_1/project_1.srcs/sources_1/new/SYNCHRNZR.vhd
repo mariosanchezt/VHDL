@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity SYNCHRNZR is
     port (
         CLK      : in std_logic;
-        rst_n      : in std_logic; -- NUEVO PUERTO
+        rst_n      : in std_logic; 
         ASYNC_IN : in std_logic;
         SYNC_OUT : out std_logic
     );
@@ -12,7 +12,7 @@ end SYNCHRNZR;
 architecture Behavioral of SYNCHRNZR is
     signal sreg : std_logic_vector(1 downto 0);
 begin
-    process (CLK, rst_n) -- Añadimos rst_n a la lista de sensibilidad
+    process (CLK, rst_n) 
     begin
         if rst_n = '0' then
             sreg <= "00";      -- Limpieza inmediata

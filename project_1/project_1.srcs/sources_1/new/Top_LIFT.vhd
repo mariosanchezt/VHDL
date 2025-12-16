@@ -135,9 +135,10 @@ begin
 
     -- SALIDAS A LA PLACA
     LED(3 downto 0) <= s_leds_target;
-    LED(5 downto 4) <= "00";
     LED(7 downto 6) <= s_leds_motor;
-    LED(14 downto 8) <= (others => '0');
     LED(15) <= s_led_puerta;
+    LED(5 downto 4) <= "00";
+    LED(14 downto 8) <= (others => '0');
+
 
 end Structural;

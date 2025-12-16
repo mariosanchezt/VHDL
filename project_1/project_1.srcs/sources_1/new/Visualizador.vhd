@@ -34,18 +34,18 @@ architecture Behavioral of Visualizador is
     end component;
 
 
-    -- Contador para dividir el reloj (de 100MHz a aprox 1kHz)
+    -- Contador para dividir el reloj
     -- 100,000 ciclos = 1ms por dígito
     constant LIMIT_REFRESH : unsigned(16 downto 0) := to_unsigned(100000, 17);
     signal refresh_counter : unsigned(16 downto 0) := (others => '0');
     
     signal anode_select    : integer range 0 to 7 := 0; 
     
--- Duración total de la animación (ej. 2 segundos a 100MHz = 200.000.000)
+-- Duración total de la animación  
     constant ANIM_DURATION : unsigned(27 downto 0) := to_unsigned(200000000, 28);
 
 -- Velocidad de giro (Cada cuánto cambia de palito a->b->c)
-    -- Ej: 100ms = 10.000.000 ciclos.
+   
     constant ANIM_SPEED    : unsigned(27 downto 0) := to_unsigned(10000000, 28);
     
     -- Señales para segmentos

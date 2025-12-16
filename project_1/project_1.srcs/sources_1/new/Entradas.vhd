@@ -4,7 +4,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity Entradas is
     Port ( 
         CLK       : in  STD_LOGIC;
-        rst_n       : in  STD_LOGIC; -- NUEVO: Reset Global
+        rst_n       : in  STD_LOGIC; -- Reset Global
         entrada   : in  STD_LOGIC_VECTOR(3 downto 0);
         button_in : out STD_LOGIC_VECTOR(3 downto 0)
     );
@@ -12,11 +12,11 @@ end Entradas;
 
 architecture Behavioral of Entradas is
 
-    -- Actualizamos la declaración de componentes con el nuevo puerto RST
+  
     component SYNCHRNZR
         port (
             CLK      : in std_logic;
-            rst_n      : in std_logic; -- Nuevo
+            rst_n      : in std_logic; 
             ASYNC_IN : in std_logic;
             SYNC_OUT : out std_logic
         );
@@ -25,7 +25,7 @@ architecture Behavioral of Entradas is
     component EDGEDTCTR
         port (
             CLK     : in std_logic;
-            rst_n     : in std_logic; -- Nuevo
+            rst_n     : in std_logic; 
             SYNC_IN : in std_logic;
             EDGE    : out std_logic
         );

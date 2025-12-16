@@ -1,45 +1,10 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="trisa" Host="MARIO" Pid="24120" HostCore="16" HostMemory="016865636352">
+    <Process Command="vivado.bat" Owner="jvald" Host="ASUS_JAVIVALDES" Pid="16776" HostCore="12" HostMemory="016850198528">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="trisa" Host="MARIO" Pid="13012" HostCore="16" HostMemory="016865636352">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="trisa" Host="MARIO" Pid="6080" HostCore="16" HostMemory="016865636352">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="trisa" Host="MARIO" Pid="2888" HostCore="16" HostMemory="016865636352">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="trisa" Host="MARIO" Pid="19280" HostCore="16" HostMemory="016865636352">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="trisa" Host="MARIO" Pid="14884" HostCore="16" HostMemory="016865636352">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="trisa" Host="MARIO" Pid="4436" HostCore="16" HostMemory="016865636352">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="trisa" Host="MARIO" Pid="31516" HostCore="16" HostMemory="016865636352">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="trisa" Host="MARIO" Pid="28524" HostCore="16" HostMemory="016865636352">
+    <Process Command="vivado.bat" Owner="jvald" Host="ASUS_JAVIVALDES" Pid="21080" HostCore="12" HostMemory="016850198528">
     </Process>
 </ProcessHandle>

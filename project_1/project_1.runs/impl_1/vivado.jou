@@ -3,22 +3,22 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Tue Dec 16 18:18:10 2025
-# Process ID         : 18056
-# Current directory  : C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.runs/impl_1
+# Start of session at: Tue Dec 16 18:37:44 2025
+# Process ID         : 17680
+# Current directory  : C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.runs/impl_1
 # Command line       : vivado.exe -log Top_LIFT.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Top_LIFT.tcl -notrace
-# Log file           : C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.runs/impl_1/Top_LIFT.vdi
-# Journal file       : C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.runs/impl_1\vivado.jou
-# Running On         : Mario
+# Log file           : C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.runs/impl_1/Top_LIFT.vdi
+# Journal file       : C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.runs/impl_1\vivado.jou
+# Running On         : Asus_JaviValdes
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26100
-# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12650H
-# CPU Frequency      : 2688 MHz
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-1255U
+# CPU Frequency      : 2611 MHz
 # CPU Physical cores : 10
-# CPU Logical cores  : 16
-# Host memory        : 16865 MB
-# Swap memory        : 4578 MB
-# Total Virtual      : 21444 MB
-# Available Virtual  : 3766 MB
+# CPU Logical cores  : 12
+# Host memory        : 16850 MB
+# Swap memory        : 9663 MB
+# Total Virtual      : 26513 MB
+# Available Virtual  : 6788 MB
 #-----------------------------------------------------------
 source Top_LIFT.tcl -notrace
