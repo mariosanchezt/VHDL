@@ -3,12 +3,12 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Fri Dec 12 18:33:34 2025
-# Process ID         : 20456
-# Current directory  : C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent3420 C:\Users\javie\OneDrive\Escritorio\UNI 25-26\1ER CUATRI\SED\Trabajo VHDL\VHDL\project_1\project_1.xpr
-# Log file           : C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1/vivado.log
-# Journal file       : C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1\vivado.jou
+# Start of session at: Mon Dec 15 19:17:40 2025
+# Process ID         : 19064
+# Current directory  : C:/Trabajo VHDL/VHDL/project_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent27804 C:\Trabajo VHDL\VHDL\project_1\project_1.xpr
+# Log file           : C:/Trabajo VHDL/VHDL/project_1/vivado.log
+# Journal file       : C:/Trabajo VHDL/VHDL/project_1\vivado.jou
 # Running On         : Javi_SM
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26200
@@ -19,12 +19,10 @@
 # Host memory        : 8269 MB
 # Swap memory        : 15032 MB
 # Total Virtual      : 23302 MB
-# Available Virtual  : 8370 MB
+# Available Virtual  : 8660 MB
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1/project_1.xpr}
-INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1'
+open_project {C:/Trabajo VHDL/VHDL/project_1/project_1.xpr}
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k24c\1.0\board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
@@ -57,7 +55,6 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-INFO: [Project 1-313] Project file moved from 'C:/Users/trisa/Desktop/VHDL/VHDL/project_1' since last save.
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
@@ -111,7 +108,7 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1/project_1.gen/sources_1'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Trabajo VHDL/VHDL/project_1/project_1.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
@@ -134,13 +131,7 @@ WARNING: [Project 1-5713] Board part '' set for the project  is not found. Board
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
-open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:29 . Memory (MB): peak = 1603.109 ; gain = 238.816
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:11 . Memory (MB): peak = 1634.293 ; gain = 196.203
 update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Fri Dec 12 18:41:32 2025] Launched synth_1...
-Run output will be captured here: C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1/project_1.runs/synth_1/runme.log
-[Fri Dec 12 18:41:32 2025] Launched impl_1...
-Run output will be captured here: C:/Users/javie/OneDrive/Escritorio/UNI 25-26/1ER CUATRI/SED/Trabajo VHDL/VHDL/project_1/project_1.runs/impl_1/runme.log
 exit
-INFO: [Common 17-206] Exiting Vivado at Fri Dec 12 18:50:17 2025...
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 15 19:19:32 2025...
