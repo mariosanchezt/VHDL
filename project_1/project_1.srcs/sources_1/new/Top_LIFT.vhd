@@ -67,15 +67,17 @@ architecture Structural of Top_LIFT is
 
     COMPONENT Visualizador
         Port ( 
+        CLK            : in  STD_LOGIC;
+        rst_n          : in  STD_LOGIC;
         piso_actual : in STD_LOGIC_VECTOR(1 downto 0); 
         piso_target : in STD_LOGIC_VECTOR(1 downto 0);
-               motor_status : in STD_LOGIC_VECTOR(1 downto 0); 
-               puerta_abierta : in STD_LOGIC;
-               seg : out STD_LOGIC_VECTOR(6 downto 0); 
-               an : out STD_LOGIC_VECTOR(7 downto 0);
-               leds_piso : out STD_LOGIC_VECTOR(3 downto 0); 
-               leds_motor : out STD_LOGIC_VECTOR(1 downto 0);
-               led_puerta : out STD_LOGIC);
+        motor_status : in STD_LOGIC_VECTOR(1 downto 0); 
+        puerta_abierta : in STD_LOGIC;
+        seg : out STD_LOGIC_VECTOR(6 downto 0); 
+        an : out STD_LOGIC_VECTOR(7 downto 0);
+        leds_piso : out STD_LOGIC_VECTOR(3 downto 0); 
+        leds_motor : out STD_LOGIC_VECTOR(1 downto 0);
+        led_puerta : out STD_LOGIC);
     END COMPONENT;
 
 begin
@@ -118,12 +120,14 @@ begin
     -- VISUALIZADOR
     inst_Visualizador : Visualizador
         PORT MAP (
+            CLK            => CLK,
+            rst_n          => rst_n,
             piso_actual => s_piso_actual, 
             piso_target => s_piso_destino,
             motor_status => s_motor,
-             puerta_abierta => s_puerta,
+            puerta_abierta => s_puerta,
             seg => SEG,
-             an => AN,
+            an => AN,
             leds_piso => s_leds_target, 
             leds_motor => s_leds_motor, 
             led_puerta => s_led_puerta

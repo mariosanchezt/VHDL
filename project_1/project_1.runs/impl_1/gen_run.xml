@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1765878616">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1765904417">
   <File Type="PA-TCL" Name="Top_LIFT.tcl"/>
   <File Type="REPORTS-TCL" Name="Top_LIFT_reports.tcl"/>
   <File Type="INIT-TIMING" Name="Top_LIFT_timing_summary_init.rpt"/>
@@ -190,8 +190,10 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PPRDIR/../../../practicas_examen/Constraints/Nexys-4-DDR-Master.xdc">
+    <File Path="$PSRCDIR/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1765386750"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>

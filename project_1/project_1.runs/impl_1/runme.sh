@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Trabajo VHDL/VHDL/project_1/project_1.runs/impl_1'
+HD_PWD='C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,7 +42,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .init_design.begin.rst
+/bin/touch .write_bitstream.begin.rst
 EAStep vivado -log Top_LIFT.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Top_LIFT.tcl -notrace
 
 
