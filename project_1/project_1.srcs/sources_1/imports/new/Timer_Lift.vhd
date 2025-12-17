@@ -12,7 +12,7 @@ end Timer_Lift;
 
 architecture Behavioral of Timer_Lift is -- Este timer ira asociado al funcionamiento de las plantas en FSM (tick_mover)
 
-    constant LIMIT : unsigned(31 downto 0) := to_unsigned(200000000, 32); --Dos segundos cada tick
+    constant LIMIT : unsigned(31 downto 0) := to_unsigned(350000000, 32); --Dos segundos cada tick
     signal counter : unsigned(31 downto 0) := (others => '0');
 
 begin

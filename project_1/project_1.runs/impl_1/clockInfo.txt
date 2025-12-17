@@ -1,7 +1,7 @@
 -------------------------------------
 | Tool Version : Vivado v.2025.1
-| Date         : Tue Dec 16 18:38:05 2025
-| Host         : Asus_JaviValdes
+| Date         : Wed Dec 17 16:47:40 2025
+| Host         : Mario
 | Design       : design_1
 | Device       : xc7a100t-csg324-1--
 -------------------------------------

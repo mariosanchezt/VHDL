@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Tue Dec 16 18:38:36 2025
-| Host         : Asus_JaviValdes running 64-bit major release  (build 9200)
+| Date         : Wed Dec 17 16:48:06 2025
+| Host         : Mario running 64-bit major release  (build 9200)
 | Command      : report_methodology -file Top_LIFT_methodology_drc_routed.rpt -pb Top_LIFT_methodology_drc_routed.pb -rpx Top_LIFT_methodology_drc_routed.rpx
 | Design       : Top_LIFT
 | Device       : xc7a100tcsg324-1
@@ -216,8 +216,8 @@ Related violations: <none>
 XDCC-4#1 Warning
 User Clock constraint overwritten with the same name  
 A new clock constraint create_clock overrides a previous user clock constraint with the same name.
-New: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports CLK] (Source: C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc (Line: 282))
-Previous: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports CLK] (Source: C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc (Line: 8))
+New: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports CLK] (Source: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc (Line: 282))
+Previous: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports CLK] (Source: C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc (Line: 8))
 Related violations: <none>
 
 

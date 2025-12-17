@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.runs/synth_1/Top_LIFT.tcl"
+  variable script "C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.runs/synth_1/Top_LIFT.tcl"
   variable category "vivado_synth"
 }
 
@@ -56,7 +56,7 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 3
+set_param chipscope.maxJobs 4
 set_param general.usePosixSpawnForFork 1
 set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
@@ -65,25 +65,26 @@ create_project -in_memory -part xc7a100tcsg324-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.xpr} [current_project]
+set_property webtalk.parent_dir C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.cache/wt [current_project]
+set_property parent.project_path C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {c:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.cache/ip} [current_project]
+set_property ip_output_repo c:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Control_Leds.vhd}
-  {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/EDGEDTCTR.vhd}
-  {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd}
-  {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/FSM.vhd}
-  {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/SYNCHRNZR.vhd}
-  {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/Timer_Lift.vhd}
-  {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/Timer_Puerta.vhd}
-  {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Visualizador.vhd}
-  {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/decoder.vhd}
-  {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd}
+  C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Animacion_Puerta.vhd
+  C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Control_Leds.vhd
+  C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/EDGEDTCTR.vhd
+  C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Entradas.vhd
+  C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/FSM.vhd
+  C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/SYNCHRNZR.vhd
+  C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/Timer_Lift.vhd
+  C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/Timer_Puerta.vhd
+  C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Visualizador.vhd
+  C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/imports/new/decoder.vhd
+  C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/sources_1/new/Top_LIFT.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -94,12 +95,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc}}]
+read_xdc C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc
+set_property used_in_implementation false [get_files C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/constrs_1/imports/VHDL/Nexys4DDR_Master.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental {C:/Users/jvald/Desktop/CURSO 25 - 26/SED/Trabajo/VHDL/VHDL/project_1/project_1.srcs/utils_1/imports/synth_1/Top_LIFT.dcp}
+read_checkpoint -auto_incremental -incremental C:/Users/trisa/Desktop/VHDL/VHDL/project_1/project_1.srcs/utils_1/imports/synth_1/Top_LIFT.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
